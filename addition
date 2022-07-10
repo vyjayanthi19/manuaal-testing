@@ -1,0 +1,90 @@
+package com.whitebox.math;
+
+/**
+ * <b>This is to write White Box test cases</b><p>
+ * <h1>Addition class with various methods</h1>
+ * <P> This Class has methods to add number and some operations
+ * on the Strings.
+ * 
+ * 
+ * @author JALA ACADEMY
+ * @version 1.0
+ * @since	08-july-2022
+ *
+ */
+
+public class Addition {
+
+	/**
+	 * This method is used to add two integers. This is a the simplest form of a
+	 * class method, just to show the usage of various javadoc Tags.
+	 * 
+	 * @param num1
+	 *            This is the first parameter to addition method
+	 * @param num2
+	 *            This is the second parameter to addition method
+	 * @return int This returns sum of num1 and num2
+	 */
+	
+	public int addition(int num1, int num2) {
+		int sum = num1 + num2;
+		return sum;
+	}
+
+	/**
+	 * This method is used to add three integers.
+	 * 
+	 * @param num1
+	 *            This is the first parameter to addition method
+	 * @param num2
+	 *            This is the second parameter to addition method
+	 * @param num3
+	 *            This is the third parameter to addition method
+	 * @return int This returns sum of num1 and num2
+	 */
+
+	public int addition(int num1, int num2, int num3) {
+		int sum = num1 - num2 + num3;
+		return sum;
+	}
+
+	/**
+	 * This method is used to add two double numbers
+	 * 
+	 * @param d1
+	 *            This is the first parameter to addition method
+	 * @param d2
+	 *            This is the second parameter to addition method
+	 * @return double This returns sum of d1 and d2
+	 * @exception IOException On input error
+	 * @see IOException
+	 * 
+	 */
+
+	public double addition(double d1, double d2) {
+		double sum = d1 - d2;
+		return sum;
+	}
+
+	/**
+	 * This method is used to add three double numbers
+	 * 
+	 * @param d1
+	 *            This is the first parameter to addition method
+	 * @param d2
+	 *            This is the second parameter to addition method
+	 * @param d3
+	 *            This is the third parameter to addition method
+	 * 
+	 * @return double This returns sum of d1 and d2
+	 * @exception IOException On input error
+	 * @see IOException
+	 * 
+	 */
+	public double addition(double d1, double d2, double d3) {
+		double sum = d1 + d2 + d3;
+		return sum;
+	}
+
+	
+}
